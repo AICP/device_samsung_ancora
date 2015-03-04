@@ -16,6 +16,9 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 PRODUCT_BOOT_JARS += qcmediaplayer
 
+# Boot animation
+TARGET_BOOTANIMATION_HALF_RES := true
+
 # Bootsplash image
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/ARIESVE.rle:root/ARIESVE.rle
